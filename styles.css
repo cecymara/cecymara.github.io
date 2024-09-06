@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333;
+}
+
+header {
+    background-color: #005A9C;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    background-color: #E0F7FA;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+}
+
+section {
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.info, .productos, .beneficios, .contacto {
+    background-color: #f4f4f4;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.producto img {
+    max-width: 100px;
+    height: auto;
+}
+
+footer {
+    background-color: #005A9C;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
